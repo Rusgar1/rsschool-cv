@@ -6,25 +6,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ruslan Gareev</title>
     <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    </head>
 <body>
-    <div>
-        <div class="wrapper">
-            <header>
-                
-            </header>
-        
-            <main class="main">
-                
-                
-            </main>
-        
-            <footer>
-                <div>2021</div>                
-            </footer>
-        </div>
-    </div>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__items">
+                        <a href="#about" class="items___link">About</a>
+                    </li>
     
+                    <li class="nav__items">
+                        <a href="#education" class="items___link">Education</a>
+                    </li>
 
+                    <li class="nav__items">
+                        <a href="#courses" class="items___link">Courses</a>
+                    </li>
+    
+                    <li class="nav__items">
+                        <a href="#code" class="items___link">Code</a>
+                    </li>
+    
+                    <li class="nav__items">
+                        <a href="#skills" class="items___link">Skills</a>
+                    </li>
+                   
+                    <li class="nav__items">
+                        <a href="#contacts" class="items___link">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <aside>
+                    <div class="avatar"><img src="image.jpg" alt="avatar" width="263" height="195" ></div>
+                    
+                    <section class="document-section contact">
+                        <h2>Contact information:</h2>
+                            <ul>
+                                <li>Phone: +7 927 766 13 05</li>
+                                <li>E-mail: grr7727@gmail.com</li>
+                            </ul>
+                    </section>
+
+                    <section class="document-section skills" id="skills">
+                        <h2>Skills:</h2>
+                        <ul>
+                            <li >HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>GitHab</li>
+                            <li>Figma</li>
+                        </ul>
+                    </section>
+
+                    <section class="document-section languages">
+                        <h2>Languages:</h2>
+                        <ul>
+                            <li>Russian - Native</li>
+                            <li>English - А1 (A2 in proccess...)</li>
+                        </ul>
+                    </section> 
+                </aside>
+
+                <section class="content">
+                    <div class="content__name">
+                        <h1>Ruslan Gareev</h1>
+                        <h3>Junior Front-End Developer</h3>
+                    </div>
+
+                    <section class="document-section content__about" id="about">
+                        <h2>About me</h2>
+                        <p>Seeing how fast the Internet is developing,
+                            as well as observing the growing demand for qualified specialists
+                            in this field, I decided to change my specialty and start a new career.
+                            I think this decision is more balanced and my new profession will be
+                            in demand for many years and will bring me a decent income,
+                            which will push me to constantly study and
+                            master new programming languages.</p>
+                    </section>
+
+                    <section class="document-section content_education" id="education">
+                        <h2>Education</h2>
+                        <ul>
+                            <li>I am getting a second higher education
+                                in University of Telecommunications and Informatics</li>
+                        </ul>
+                    </section>
+
+                    <section class="document-section content_courses" id="courses">
+                        <h2>Courses</h2>
+                        <ul>
+                            <li>JavaScript for beginners</li>
+                            <li>HTML for beginners</li>
+                            <li>CSS for beginners</li>
+                            <li>JavaScript / Front-end course in progress</li>
+                        </ul>
+                    </section>
+
+                    <section class="document-section content__code" id="code">
+                        <h2>Code Example</h2>
+                        <pre>
+                            <code>
+                                
+                                    <span class="hljs-keyword">function</span> <span class="hljs-title">booleanToString</span> (<span>b</span>) {
+                                    <span class="hljs-keyword">return</span> b + <span class="hljs-string">""</span>; 
+                                
+                            </code>
+                        </pre>
+                    </section>
+                    
+                    <section class="document-section content_projects" id="projects">
+                        <h2>Projects</h2>
+                        <ul>
+                            <li>
+                                <a href="https://rusgar1.github.io/rsschool-cv/cv">Сompleted training project "CV#1. Markdown & Git"</a>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+                                
+            </div>
+        </main>
+        <footer>
+            <div>2021</div>
+            <div class="footer-github">
+                <a href="https://github.com/Rusgar1">Me on GitHub</a>
+            </div>
+            
+            <div>
+                <a href="https://rs.school/js/"><img src="rs_school_js.svg" alt="RS school link" width="73"></a>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
